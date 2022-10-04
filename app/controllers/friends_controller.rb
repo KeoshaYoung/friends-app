@@ -19,4 +19,9 @@ class FriendsController < ApplicationController
              status: :bad_request
     end
   end
+
+  def show
+    friend = Friend.find_by(id: params[:id])
+    render json: friend
+  end
 end
