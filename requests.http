@@ -11,3 +11,6 @@ POST http://localhost:3000/friends
   "phone": "(706)555-4444",
   "twitter": "@sueQue"
 }
+
+### Friends Show
+GET http://localhost:3000/friends/4
