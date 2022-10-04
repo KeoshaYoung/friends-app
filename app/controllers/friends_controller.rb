@@ -15,7 +15,8 @@ class FriendsController < ApplicationController
     if friend.save
       render json: friend
     else
-      render json: { errors: friend.errors.full_messages }, status: :bad_request
+      render json: { errors: friend.errors.full_messages },
+             status: :bad_request
     end
   end
 end

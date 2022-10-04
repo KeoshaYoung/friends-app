@@ -1,2 +1,13 @@
 ### Friends Index
-GET http://localhost:3000/friends.json
+GET http://localhost:3000/friends
+
+### Friends Create
+POST http://localhost:3000/friends
+
+{
+  "first_name": "Sue",
+  "last_name": "Que",
+  "email": "sque@example.com",
+  "phone": "(706)555-4444",
+  "twitter": "@sueQue"
+}
